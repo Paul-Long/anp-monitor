@@ -13,7 +13,7 @@ exports = module.exports = function(options) {
   _common.os = require('./common.os')(_common).init();
   _common.http = require('./common.http')(_common);
   function init() {
-    _common.profiler = require('./common.profiler')(_common).init();
+    // _common.profiler = require('./common.profiler')(_common).init();
     return _common;
   }
   function base() {
