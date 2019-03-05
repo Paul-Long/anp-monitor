@@ -18,5 +18,5 @@ gulp.task('package', async function() {
 });
 
 gulp.task('build', function() {
-  return gulp.src(['./index.js']).pipe(gulp.dest('./lib/'));
+  return gulp.src(['./index.js', './README.md']).pipe(gulp.dest('./lib/'));
 });
